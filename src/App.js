@@ -65,7 +65,7 @@ function App() {
           return (
             <BrowserRouter>
               <div className='page1'>
-                <h3>{data.API}</h3>
+                <h4>{data.API}</h4>
                 <li>{data.Category}</li>
                 <li>
                   <button className='buttons' key={data.Link}>
